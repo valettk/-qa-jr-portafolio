@@ -4,9 +4,9 @@ Semana 1 - Fundamentos
 <h2> Reto 1.5 · Reportes de bug reproducibles en Jira </h2>
 
 <h3> Reporte de bug 1</h3>
-Título: [Transferencias] Una cuenta con monto en 0 puede hacer transferencias y su saldo se vuelve negativo. 
-Ambiente: Url: https://parabank.parasoft.com/parabank/overview.html Navegador: Chrome. Version:  158.0.8127.36. Usuario: john. Contraseña: demo.
-Precondiciones: Haber iniciado sesión y tener dos cuentas, la primera cuenta 18339 con $0 y la segunda cuenta 13344 con $5022.93.
+Título: [Transferencias] Una cuenta con monto en 0 puede hacer transferencias y su saldo se vuelve negativo. <br>
+Ambiente: Url: https://parabank.parasoft.com/parabank/overview.html Navegador: Chrome. Version:  158.0.8127.36. Usuario: john. Contraseña: demo. <br>
+Precondiciones: Haber iniciado sesión y tener dos cuentas, la primera cuenta 18339 con $0 y la segunda cuenta 13344 con $5022.93. <br>
 Pasos para reproducir:
 1. Ir a la sección Transfer Funds.
 2. Seleccionar la cuenta 18339 con 0 de saldo para transferir.
