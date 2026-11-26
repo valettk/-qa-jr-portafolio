@@ -3,7 +3,8 @@ Semana 1 - Fundamentos
 
 <h2> Reto 1.5 · Reportes de bug reproducibles en Jira </h2>
 
-  1. Título: [Transferencias] Una cuenta con monto en 0 puede hacer transferencias y su saldo se vuelve negativo. 
+<h3> Reporte de bug 1</h3>
+Título: [Transferencias] Una cuenta con monto en 0 puede hacer transferencias y su saldo se vuelve negativo. 
 Ambiente: Url: https://parabank.parasoft.com/parabank/overview.html Navegador: Chrome. Version:  158.0.8127.36. Usuario: john. Contraseña: demo.
 Precondiciones: Haber iniciado sesión y tener dos cuentas, la primera cuenta 18339 con $0 y la segunda cuenta 13344 con $5022.93.
 Pasos para reproducir:
@@ -18,8 +19,8 @@ Resultado obtenido: La transferencia se realiza y la cuenta 18339 termina con el
 Evidencias: Captura de Accounts Overview: cuenta 18339 en -$100.00 y cuenta 13344 en $5122.93.
 Severidad / Prioridad sugeridas: Severidad: Alta. Prioridad: Alta.
 
-
-  2. Título: [Transferencias] Pagina con el texto "Error!
+<h3> Reporte de bug 2 </h3>
+Título: [Transferencias] Pagina con el texto "Error!
 An internal error has occurred and has been logged." al dar doble click en el botón "Transfer"
 Ambiente: Url: https://parabank.parasoft.com/parabank/overview.html Navegador: Chrome. Version:  158.0.8127.36. Usuario: john. Contraseña: demo.
 Precondiciones: haber iniciado sesión.
@@ -36,8 +37,8 @@ Evidencias: Captura de Transfer Funds: Mensaje "Error!
 An internal error has occurred and has been logged.".
 Severidad / Prioridad sugeridas: Severidad: Baja. Prioridad: Baja.
 
-
-  3. Título: [Transferencias] Al transferir un monto en negativo el saldo de la cuenta que lo recibió disminuye.
+<h3> Reporte de bug 3 </h3>
+Título: [Transferencias] Al transferir un monto en negativo el saldo de la cuenta que lo recibió disminuye.
 Ambiente: Url: https://parabank.parasoft.com/parabank/overview.html Navegador: Chrome. Version:  158.0.8127.36. Usuario: john. Contraseña: demo.
 Precondiciones: Haber iniciado sesión y tener dos cuentas, la primera cuenta 12900 con $100 y la segunda cuenta 13011 con $100.
 Pasos para reproducir: 
